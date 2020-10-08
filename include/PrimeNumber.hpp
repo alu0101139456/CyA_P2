@@ -10,7 +10,10 @@ class PrimeNumber {
   PrimeNumber(/* args */);
   ~PrimeNumber();
 
+  
+  
   inline bool isNumber(void) { return prime_; }
+
 
   
 
