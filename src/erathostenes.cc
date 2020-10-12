@@ -1,6 +1,7 @@
 
-
-
+#include "NumberPrime.hpp"
+#include "PrimeVector.hpp"
+#include <cstdlib>
 #include <iostream>
 
 
@@ -16,9 +17,8 @@ int main(int argc, char *argv[]) {
 	
 	switch(argc) {
    case 2: {
-      std::cout << "Por argumentos tengo en la posición [0] el nombre: " << argv[0] << " y el siguiente es: " << argv[1] << std::endl;
-			std::cout << "Valor de argc: " << argc << std::endl;
-
+      
+      PrimeVector(atoi(argv[1]));
       break;
     }
   default:
