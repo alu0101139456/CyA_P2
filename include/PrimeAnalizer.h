@@ -1,9 +1,9 @@
 #pragma once
 
 #include<vector>
-#include "NumberPrime.hpp"
+#include "NumberPrime.h"
 
-class PrimeVector
+class PrimeAnalizer
 {
  private:
   std::vector<NumberPrime> vPrimes;
@@ -11,14 +11,14 @@ class PrimeVector
 
 
  public:
-  PrimeVector(int);
+  PrimeAnalizer(int);
  
-  PrimeVector( PrimeVector &temp);
-  ~PrimeVector();
+  ~PrimeAnalizer();
 
   void sieve();
   void remove(int);
   void deletePrimes();
   void printList();
+ 
 
 };
