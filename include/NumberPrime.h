@@ -6,7 +6,7 @@
 class NumberPrime
  {
  private:
-  int number_ = -1;
+  int number_ = 1;
   bool prime_ = true;
 
  public:
