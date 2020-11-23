@@ -36,6 +36,7 @@ void PrimeAnalizer::printList() {
   std::cout << "Numeros primos: ";
   for (int i = 2; i < (int)vPrimes.size(); i++) {
     if(vPrimes[i].isPrime())
+    
       std::cout << vPrimes[i].getNumber() << ", ";
   }
   
